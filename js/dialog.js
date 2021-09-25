@@ -1,5 +1,11 @@
 export default class dialog{
     constructor() {
+        this.dialog = undefined;
+        this.trueButton = undefined;
+        this.falseButton = undefined;
+
+        this.createDialog();
+
     }
 
     confirm(){
@@ -7,6 +13,10 @@ export default class dialog{
     }
 
     createDialog(){
+
+    }
+
+    delete(){
 
     }
 }
