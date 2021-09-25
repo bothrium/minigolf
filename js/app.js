@@ -1,4 +1,3 @@
-import default
 var drawCounter = function () {
     document.getElementById('counter').innerHTML = store.counter
 }
