@@ -1,0 +1,1 @@
+const score = document.addEventListener('keydown')
