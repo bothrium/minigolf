@@ -1,8 +1,8 @@
-var drawCounter = function () {
+const drawCounter = function () {
     document.getElementById('counter').innerHTML = store.counter
 }
 
-var bindEvents = function () {
+const bindEvents = function () {
     document.getElementById('increase').addEventListener('click', function () {
         increase()
         drawCounter()
@@ -14,20 +14,22 @@ var bindEvents = function () {
 }
 
 
-var store = {
+const store = {
     counter: 0
 }
 
 
-var increase = function () {
+const increase = function () {
     store.counter++
 }
 
-var decrease = function () {
+const decrease = function () {
     store.counter--
 }
 
-var init = function () {
+const init = function () {
     bindEvents()
     drawCounter()
 }
+
+init()
