@@ -4,6 +4,7 @@ export default class Localstorage{
     }
 
     updateItems(){
+        this.items = [];
 
 
     }
