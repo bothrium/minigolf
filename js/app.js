@@ -1,3 +1,6 @@
+import LocalStorage from "./localstorage.js";
+const localStorage = new LocalStorage();
+
 const drawCounter = function () {
     document.getElementById('counter').innerHTML = store.counter
 }
