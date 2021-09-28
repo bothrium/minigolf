@@ -5,7 +5,9 @@
 /* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
 
 body {
-    margin: 0; /* Ingen kanter i siden af browser */
+  background: blueviolet;
+
+  margin: 0; /* Ingen kanter i siden af browser */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,4 +41,9 @@ img {
   text-align: center;
 }
 
-
+.container{
+  max-width: 500%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
