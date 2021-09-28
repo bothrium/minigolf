@@ -5,6 +5,8 @@
 /* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
 
 body {
+  background: blueviolet;
+
   margin: 0; /* Ingen kanter i siden af browser */
 }
 
@@ -37,4 +39,11 @@ img {
 
 #counter-app {
   text-align: center;
+}
+
+.container{
+  max-width: 500%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
