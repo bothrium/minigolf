@@ -1,5 +1,7 @@
-import LocalStorage from "./localstorage.js";
-const localStorage = new LocalStorage();
+import Todo from "./localstorage.js"
+
+        new Todo ()
+
 
 const drawCounter = function () {
     document.getElementById('counter').innerHTML = store.counter
