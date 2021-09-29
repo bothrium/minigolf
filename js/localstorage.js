@@ -14,7 +14,7 @@ export default class Localstorage{
         }
 
     }
-
+/*
     updateItems(){
         this.items = [];
 
@@ -25,3 +25,4 @@ export default class Localstorage{
 
     }
 }
+*/

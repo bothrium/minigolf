@@ -1,6 +1,6 @@
 export default class scoreBoard{
 
-
+/*
 
     constructor() {
         this.ul = document.querySelector('ul#score')
@@ -10,3 +10,5 @@ export default class scoreBoard{
 const scoreGenerator = document.createElement( function{
 
 });
+
+ */
