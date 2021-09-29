@@ -7,7 +7,7 @@ export default class scoreBoard{
     }
 }
 
-const scoreGenerator = document.createElement( function{
+const scoreGenerator = document.createElement( function(){
 
 });
 
