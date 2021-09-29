@@ -1,4 +1,5 @@
 export default class dialog{
+   /*
     constructor() {
         this.dialog = undefined;
         this.trueButton = undefined;
@@ -21,3 +22,4 @@ export default class dialog{
     }
 }
 
+*/
